@@ -1,2 +1,15 @@
 width: 457
 height: 288
+
+width: 492
+heigth: 337
+
+
+Format string:
+%#_g
+%.;%#_g
+
+En PCs donde el SO tenga la coma (,) como separador decimal, se deberá agregar %. al format string para que el número cambie la coma (,) por punto (.). 
+
+Ejemplo de SCPI:
+Limit:ARC:LEVel %.;%f
