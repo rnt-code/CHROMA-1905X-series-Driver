@@ -1,15 +1,17 @@
+Algunos VIs son de este tamaño:
 width: 457
 height: 288
 
+Otros son de este:
 width: 492
 heigth: 337
 
 
-Format string:
-%#_g
-%.;%#_g
+Format string para que el string resultante (comando) tenga como separador decimal el punto (.):
+%#_g (original a reemplazar)
+%.;%#_g (actual)
 
 En PCs donde el SO tenga la coma (,) como separador decimal, se deberá agregar %. al format string para que el número cambie la coma (,) por punto (.). 
 
-Ejemplo de SCPI:
+Ejemplo de SCPI command:
 Limit:ARC:LEVel %.;%f
