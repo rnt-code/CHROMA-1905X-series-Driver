@@ -58,6 +58,11 @@
 			<Item Name="AC-DC-IR modes--ring.ctl" Type="VI" URL="../base files/ready/Type Def/AC-DC-IR modes--ring.ctl"/>
 			<Item Name="steps--ring.ctl" Type="VI" URL="../base files/ready/Type Def/steps--ring.ctl"/>
 		</Item>
+		<Item Name="AddTerminal Char.vi" Type="VI" URL="../base files/ready/AddTerminal Char.vi"/>
+		<Item Name="Chroma 1905x Series Close.VI" Type="VI" URL="../base files/ready/Chroma 1905x Series Close.VI"/>
+		<Item Name="Chroma 1905x Series Delay.vi" Type="VI" URL="../base files/ready/Chroma 1905x Series Delay.vi"/>
+		<Item Name="Creating Instrument Drivers.url" Type="Document" URL="../Creating Instrument Drivers.url"/>
+		<Item Name="Instrument Driver Modification Instructions.url" Type="Document" URL="../Instrument Driver Modification Instructions.url"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
