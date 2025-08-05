@@ -63,6 +63,7 @@
 		<Item Name="Chroma 1905x Series Delay.vi" Type="VI" URL="../base files/ready/Chroma 1905x Series Delay.vi"/>
 		<Item Name="Creating Instrument Drivers.url" Type="Document" URL="../Creating Instrument Drivers.url"/>
 		<Item Name="Instrument Driver Modification Instructions.url" Type="Document" URL="../Instrument Driver Modification Instructions.url"/>
+		<Item Name="Notas.txt" Type="Document" URL="../base files/Notas.txt"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
