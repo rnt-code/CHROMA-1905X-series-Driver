@@ -30,6 +30,8 @@
 			<Item Name="Chroma 1905x Series 488.2 Qry -STB-.vi" Type="VI" URL="../base files/ready/IEEE 488.2 Commands VIs/Chroma 1905x Series 488.2 Qry -STB-.vi"/>
 		</Item>
 		<Item Name="Test Parameters Configuration VIs" Type="Folder">
+			<Item Name="Chroma 1905x Series Configure Dwell Time Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Dwell Time Query.vi"/>
+			<Item Name="Chroma 1905x Series Configure Dwell Time.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Dwell Time.vi"/>
 			<Item Name="Chroma 1905x Series Configure Fall Time Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Fall Time Query.vi"/>
 			<Item Name="Chroma 1905x Series Configure Fall Time.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Fall Time.vi"/>
 			<Item Name="Chroma 1905x Series Configure Hipot ARC Limit Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Hipot ARC Limit Query.vi"/>
@@ -56,14 +58,19 @@
 		<Item Name="Type Def" Type="Folder">
 			<Item Name="AC-DC modes--ring.ctl" Type="VI" URL="../base files/ready/Type Def/AC-DC modes--ring.ctl"/>
 			<Item Name="AC-DC-IR modes--ring.ctl" Type="VI" URL="../base files/ready/Type Def/AC-DC-IR modes--ring.ctl"/>
+			<Item Name="DC-IR modes--ring.ctl" Type="VI" URL="../base files/ready/Type Def/DC-IR modes--ring.ctl"/>
 			<Item Name="steps--ring.ctl" Type="VI" URL="../base files/ready/Type Def/steps--ring.ctl"/>
 		</Item>
 		<Item Name="AddTerminal Char.vi" Type="VI" URL="../base files/ready/AddTerminal Char.vi"/>
 		<Item Name="Chroma 1905x Series Close.VI" Type="VI" URL="../base files/ready/Chroma 1905x Series Close.VI"/>
 		<Item Name="Chroma 1905x Series Delay.vi" Type="VI" URL="../base files/ready/Chroma 1905x Series Delay.vi"/>
+		<Item Name="Chroma 1905x Series Initialize.vi" Type="VI" URL="../base files/Chroma 1905x Series Initialize.vi"/>
 		<Item Name="Creating Instrument Drivers.url" Type="Document" URL="../Creating Instrument Drivers.url"/>
 		<Item Name="Instrument Driver Modification Instructions.url" Type="Document" URL="../Instrument Driver Modification Instructions.url"/>
 		<Item Name="Notas.txt" Type="Document" URL="../base files/Notas.txt"/>
+		<Item Name="pattern.vi" Type="VI" URL="../base files/pattern.vi"/>
+		<Item Name="set DC test parameters.vi" Type="VI" URL="../Ejemplos/set DC test parameters.vi"/>
+		<Item Name="set IR test parameters.vi" Type="VI" URL="../Ejemplos/set IR test parameters.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
