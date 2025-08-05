@@ -44,8 +44,6 @@
 			<Item Name="Chroma 1905x Series Configure Hipot Offset Level.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Hipot Offset Level.vi"/>
 			<Item Name="Chroma 1905x Series Configure Hipot Real Current Limit Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Hipot Real Current Limit Query.vi"/>
 			<Item Name="Chroma 1905x Series Configure Hipot Real Current Limit.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Hipot Real Current Limit.vi"/>
-			<Item Name="Chroma 1905x Series Configure Hipot Voltage Level Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Hipot Voltage Level Query.vi"/>
-			<Item Name="Chroma 1905x Series Configure Hipot Voltage Level.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Hipot Voltage Level.vi"/>
 			<Item Name="Chroma 1905x Series Configure IR High Limit Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure IR High Limit Query.vi"/>
 			<Item Name="Chroma 1905x Series Configure IR High Limit.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure IR High Limit.vi"/>
 			<Item Name="Chroma 1905x Series Configure IR Low Limit Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure IR Low Limit Query.vi"/>
@@ -54,6 +52,8 @@
 			<Item Name="Chroma 1905x Series Configure Ramp Time.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Ramp Time.vi"/>
 			<Item Name="Chroma 1905x Series Configure Test Time Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Test Time Query.vi"/>
 			<Item Name="Chroma 1905x Series Configure Test Time.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Test Time.vi"/>
+			<Item Name="Chroma 1905x Series Configure Voltage Level Query.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Voltage Level Query.vi"/>
+			<Item Name="Chroma 1905x Series Configure Voltage Level.vi" Type="VI" URL="../base files/ready/Test Parameters Configuration VIs/Chroma 1905x Series Configure Voltage Level.vi"/>
 		</Item>
 		<Item Name="Type Def" Type="Folder">
 			<Item Name="AC-DC modes--ring.ctl" Type="VI" URL="../base files/ready/Type Def/AC-DC modes--ring.ctl"/>
@@ -69,8 +69,6 @@
 		<Item Name="Instrument Driver Modification Instructions.url" Type="Document" URL="../Instrument Driver Modification Instructions.url"/>
 		<Item Name="Notas.txt" Type="Document" URL="../base files/Notas.txt"/>
 		<Item Name="pattern.vi" Type="VI" URL="../base files/pattern.vi"/>
-		<Item Name="set DC test parameters.vi" Type="VI" URL="../Ejemplos/set DC test parameters.vi"/>
-		<Item Name="set IR test parameters.vi" Type="VI" URL="../Ejemplos/set IR test parameters.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
