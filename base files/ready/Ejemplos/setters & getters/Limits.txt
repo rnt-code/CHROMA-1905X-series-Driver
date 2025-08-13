@@ -1,0 +1,26 @@
+----------------------------------------------
+Test #VOLTage LEVEL: 
+AC: 0,05kV to 5kV
+DC: 0,05kV to 6kV
+IR: 0,05kV to 1kV
+----------------------------------------------
+#HIGH current/resistance: 
+AC: 0,001mA to 30mA
+DC: 0,1uA to 10mA
+IR: 1Mohm to 50Gohm, 0=OFF
+----------------------------------------------
+#TIME: 
+Test: 0,3s to 999s, 0=CONT. 
+DC /IR: Dwell: 0,1s to 999s, 0=OFF
+Ramp: 0,1s to 999s, 0=OFF
+Fall: 0,1s to 999s, 0=OFF
+----------------------------------------------
+#ARC Upper current Lmit:
+AC: 0.1mA to 15mA, 0=OFF
+DC: 0.1mA to 10mA, 0=OFF
+----------------------------------------------
+#LOW current/resistance: 
+AC: 0,001mA to 30mA, 0=OFF
+DC: 0,001mA to 10mA, 0=OFF
+IR: 0,1Mohm to 50,0Gohm 
+----------------------------------------------
