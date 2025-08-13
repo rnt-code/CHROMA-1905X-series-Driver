@@ -24,3 +24,7 @@ AC: 0,001mA to 30mA, 0=OFF
 DC: 0,001mA to 10mA, 0=OFF
 IR: 0,1Mohm to 50,0Gohm 
 ----------------------------------------------
+Datos adicionales:
+AC: REAL: 0=OFF, 0,01mA to 5,00mA
+DC: CHK: 0=OFF, 1=ON, 
+IR: RANGE: 300nA, 3uA, 30uA, 300uA, 3mA, 10mA, AUTO ON, AUTO OFF
