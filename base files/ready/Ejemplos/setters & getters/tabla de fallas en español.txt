@@ -1,0 +1,14 @@
+
+| Resultado en pantalla | Modo(s) de prueba | Significado técnico                                                                                   |
+| --------------------- | ----------------- | ----------------------------------------------------------------------------------------------------- |
+| HI                	| AC / DC / IR      | El valor medido de corriente (AC/DC) o resistencia (IR) supera el límite alto (HIGH) configurado.     |
+| LO                	| AC / DC / IR      | El valor medido de corriente o resistencia está por debajo del límite bajo (LOW) configurado.         |
+| ARC               	| AC / DC           | Corriente de arco detectada por encima del umbral configurado. Indica posible ruptura de aislamiento. |
+| CHECK LOW         	| DC                | Corriente de carga demasiado baja durante la prueba DC (parámetro CLOW activo).                       |
+| ADV OVER          	| AC / DC           | Lectura de tensión o corriente excede la resolución máxima que puede medir el hardware.               |
+| ADI OVER          	| AC / IR           | Lectura de corriente o resistencia excede la resolución máxima que puede medir el hardware.           |
+| GR CONT.          	| Ground Continuity | Fallo en la prueba de continuidad de tierra.                                                          |
+| GFI TRIP          	| Todos             | Desconexión por falla de tierra (Ground Fault Interruption).                                          |
+| AC REAL HI       	| AC                | Corriente "real" medida (parámetro REAL) supera el límite establecido.                                |
+| OPEN             	| OSC               | Capacitancia medida es menor que el límite definido en OPEN CHK → posible circuito abierto.           |
+| SHORT             	| OSC               | Capacitancia medida es mayor que el límite definido en SHORT CHK → posible cortocircuito.             |

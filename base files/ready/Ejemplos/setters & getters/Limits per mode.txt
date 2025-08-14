@@ -1,0 +1,42 @@
+-----------------------------------------------------------------------------
+AC mode parameters
+
+#VOLTage LEVEL: 		0.050kV to 5.000kV
+#HIGH Current:			0.001mA to 30mA
+#Test TIME: 			0=CONT., 0.3s to 999s
+#RAMP Time:			0=OFF, 0.1s to 999s
+#FALL Time:			0=OFF, 0.1s to 999s
+#ARC Upper Lmit:		0=OFF, 0.1mA to 15mA
+#LOW Current: 			0=OFF, 0.001mA to 30mA
+#REAL Current Hi Limit: 	0=OFF, 0.01mA to 5.00mA
+
+NOTA 1: Si RAMP, FALL están activados, el tiempo de prueba es RAMP+TIME+FALL segundos
+NOTA 2: Cuando se activa, VOLT sube desde 0 VAC (en t=0s) hasta su valor establecido, p.ej., 1.5kAC (en t=RAMP segundos)
+NOTA 3: Cuando se activa, VOLT baja desde su valor establecido, p.ej., 1.5kAC (en t=RAMP+TIME segundos) hasta 0VAC (en t=RAMP+TIME+FALL segundos)
+NOTA 4: REAL current Hi Limit, determina el resultado de la prueba si está activado. Si la corriente REAL, durante la prueba, supera su valor Hi establecido, el resultado es FAIL, independientemente si el valor de la corriente de prueba está dentro del rango [LOW, HIGH]. El instrumento indica la falla AC REAL HI (AC Fail Code = 26)
+-----------------------------------------------------------------------------
+DC mode parameters
+
+#VOLTage LEVEL:			0,050kV to 6.000kV
+#HIGH Current:			0.1uA to 10mA
+#Test TIME:			0=CONT., 0.3s to 999s
+#RAMP Time:			0=OFF, 0.1s to 999s
+#DWELL Time: 			0=OFF, 0.1s to 999s (Durante este tiempo se prueba?)
+#FALL Time:			0=OFF, 0.1s to 999s
+#ARC Upper Lmit:		0=OFF, 0.1mA to 10mA
+#LOW Current:			0=OFF, 0.001mA to 10mA
+#CHK:				0=OFF, 1=ON
+
+-----------------------------------------------------------------------------
+IR mode parameters
+
+#VOLTage LEVEL:			0.050kV to 1.000kV
+#LOW Resistance:		0.1Mohm to 50.0Gohm
+#Test TIME:			0=CONT., 0.3s to 999s
+#RAMP Time:			0=OFF, 0.1s to 999s
+#DWELL Time: 			0=OFF, 0.1s to 999s (Durante este tiempo se prueba?)
+#FALL Time:			0=OFF, 0.1s to 999s
+#HIGH Resistance:		0=OFF, 1Mohm to 50Gohm
+#RANGE:				300nA, 3uA, 30uA, 300uA, 3mA, 10mA, AUTO ON, AUTO OFF
+
+-----------------------------------------------------------------------------
