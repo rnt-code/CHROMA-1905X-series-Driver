@@ -15,3 +15,5 @@ En PCs donde el SO tenga la coma (,) como separador decimal, se deberá agregar 
 
 Ejemplo de SCPI command:
 Limit:ARC:LEVel %.;%f
+
+https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x3XpCAI&l=es-AR
