@@ -52,8 +52,8 @@
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="Set Parameters" Type="Folder">
-			<Item Name="set AC test parameters.vi" Type="VI" URL="../set AC test parameters.vi"/>
-			<Item Name="set IR test parameters.vi" Type="VI" URL="../set IR test parameters.vi"/>
+			<Item Name="set AC test parameters.vi" Type="VI" URL="../../Example 01/Support/set AC test parameters.vi"/>
+			<Item Name="set IR test parameters.vi" Type="VI" URL="../../Example 01/Support/set IR test parameters.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
