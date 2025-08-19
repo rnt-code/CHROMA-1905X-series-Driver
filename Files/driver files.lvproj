@@ -74,17 +74,7 @@
 					<Item Name="Chroma 1905x Series Source Stop.vi" Type="VI" URL="../Processed Files/Not ready/Source/Chroma 1905x Series Source Stop.vi"/>
 				</Item>
 			</Item>
-			<Item Name="Ready" Type="Folder">
-				<Item Name="System" Type="Folder">
-					<Item Name="System Error Query.vi" Type="VI" URL="../Processed Files/Ready/System/System Error Query.vi"/>
-					<Item Name="System Klock Query.vi" Type="VI" URL="../Processed Files/Ready/System/System Klock Query.vi"/>
-					<Item Name="System Klock.vi" Type="VI" URL="../Processed Files/Ready/System/System Klock.vi"/>
-					<Item Name="System Lock Owner Query.vi" Type="VI" URL="../Processed Files/Ready/System/System Lock Owner Query.vi"/>
-					<Item Name="System Lock Release.vi" Type="VI" URL="../Processed Files/Ready/System/System Lock Release.vi"/>
-					<Item Name="System Lock Request.vi" Type="VI" URL="../Processed Files/Ready/System/System Lock Request.vi"/>
-					<Item Name="System SCPI Version Query.vi" Type="VI" URL="../Processed Files/Ready/System/System SCPI Version Query.vi"/>
-				</Item>
-			</Item>
+			<Item Name="Ready" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
