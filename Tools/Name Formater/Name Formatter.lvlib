@@ -1,5 +1,24 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="25008000">
+	<Property Name="NI.Lib.Description" Type="Str">Description:
+The &lt;b&gt;Naming Formatter.lvlib&lt;/b&gt; library provides a set of VIs and enums to transform a text with words separated by spaces into different naming conventions. It includes:
+
+&lt;b&gt;Name Formatter Main.vi&lt;/b&gt; Entry point that delegates the input text to the selected conversion module.
+&lt;b&gt;SpacedCamelCase&lt;/b&gt; Converts text to spaced camel case (each word capitalized, spaces preserved).
+&lt;b&gt;camelCase&lt;/b&gt; Converts text to camelCase (first word lowercase, subsequent words capitalized, no spaces)
+&lt;b&gt;PascalCase&lt;/b&gt; Converts text to PascalCase (all words capitalized, no spaces).
+&lt;b&gt;snake_case&lt;/b&gt; Converts text to snake_case (all lowercase, spaces replaced with underscores).
+&lt;b&gt;kebab-case&lt;/b&gt; Converts text to kebab-case (all lowercase, spaces replaced with hyphens).
+&lt;b&gt;CaseType&lt;/b&gt; (Enum) Selector for choosing the desired naming convention.
+
+Usage:
+Provide a text string containing spaces.
+Select the desired naming convention using the &lt;b&gt;CaseType&lt;/b&gt; enum.
+Call &lt;b&gt;Name Formatter Main.vi&lt;/b&gt; to perform the transformation.
+
+Requirements:
+All input texts must contain spaces. Without spaces, the conversion functions cannot be applied.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*%!!!*Q(C=\&gt;5^&lt;NN!%)&lt;BTU%+N\J"I#)8G-)6/VW"*T!QH4M\&lt;&amp;XK#F/H%_$;B@J5ES-Q2^!6Z(=X)VFS%46*%!2??GHRW\`(3YK7?LG70GJ`K1S`,,1TUT$]L/UU^(KY&lt;OW6V%H$I8],_PB$O[J&lt;&gt;4WUHY]@KON:_]EEQ`"G`!8`B;,X]F\_\`*Y]5PQR\](6WIP)GJ3A_J55VNWH_2*HO2*HO2*(O2"(O2"(O2"\O2/\O2/\O2/&lt;O2'&lt;O2'&lt;O2'XA^SE9N=Z*#3R:/&amp;EEG4#:,/5*3=%E`C34S*BUMFHM34?"*0YK',%E`C34S**`%Q4)EH]33?R*.YG+J,MB`E?")0USPQ"*\!%XA#$UMK]!3!9,&amp;AYG!3'!I;AQ_"*`!%(DYK]!3?Q".Y!A`.#DS"*`!%HM$$E,YLU48N)-@$.()]DM@R/"\(Q^2S0)\(]4A?R].S=DS/RU%Y#TK41Z!TS/HA8$A?R]-P/2\(YXA=D_/BK&gt;]B\TP4./UARW.Y$)`B-4S'BSFE?!S0Y4%]BI&gt;J:8A-D_%R0);(J72Y$)`B-3$'ICQP9T*DI.(*#!Q00`VJM8[8IEOM(V)^P+K(5P7QK2YCV=/BOOGKG[G[3;L.6WWK;L.5G[$[YV2I&amp;5;VC'JQ[[A&gt;ZZG[J7[I;_J%(;EL[J+[;%.`=]@&gt;&lt;K&gt;ZHL8&gt;&lt;L8:&lt;,2?LT6.E]:RV'KVUH+ZV'+R/,Y'0H%=8QCP\[6PNV^OZ[@0U`?PY`0]&gt;(`TY_\B_3`^@`Y(XIX[I.-VW+-8AYQZO1!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -12,9 +31,9 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Type Def" Type="Folder">
-			<Item Name="Nomenclature--enum.ctl" Type="VI" URL="../Nomenclature--enum.ctl"/>
+			<Item Name="Case Type--enum.ctl" Type="VI" URL="../Case Type--enum.ctl"/>
 		</Item>
-		<Item Name="CamelCase Converter.vi" Type="VI" URL="../CamelCase Converter.vi"/>
+		<Item Name="camelCase Converter.vi" Type="VI" URL="../camelCase Converter.vi"/>
 		<Item Name="kebab-case Converter.vi" Type="VI" URL="../kebab-case Converter.vi"/>
 		<Item Name="PascalCase Converter.vi" Type="VI" URL="../PascalCase Converter.vi"/>
 		<Item Name="snake_case Converter.vi" Type="VI" URL="../snake_case Converter.vi"/>
