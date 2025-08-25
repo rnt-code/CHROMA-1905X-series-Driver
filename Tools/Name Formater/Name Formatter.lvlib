@@ -30,14 +30,17 @@ All input texts must contain spaces. Without spaces, the conversion functions ca
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Type Def" Type="Folder">
 			<Item Name="Case Type--enum.ctl" Type="VI" URL="../Case Type--enum.ctl"/>
 		</Item>
-		<Item Name="camelCase Converter.vi" Type="VI" URL="../camelCase Converter.vi"/>
-		<Item Name="kebab-case Converter.vi" Type="VI" URL="../kebab-case Converter.vi"/>
-		<Item Name="PascalCase Converter.vi" Type="VI" URL="../PascalCase Converter.vi"/>
-		<Item Name="snake_case Converter.vi" Type="VI" URL="../snake_case Converter.vi"/>
-		<Item Name="Spaced Camel Case Converter.vi" Type="VI" URL="../Spaced Camel Case Converter.vi"/>
+		<Item Name="Conversion" Type="Folder">
+			<Item Name="camelCase Converter.vi" Type="VI" URL="../camelCase Converter.vi"/>
+			<Item Name="kebab-case Converter.vi" Type="VI" URL="../kebab-case Converter.vi"/>
+			<Item Name="PascalCase Converter.vi" Type="VI" URL="../PascalCase Converter.vi"/>
+			<Item Name="snake_case Converter.vi" Type="VI" URL="../snake_case Converter.vi"/>
+			<Item Name="Spaced Camel Case Converter.vi" Type="VI" URL="../Spaced Camel Case Converter.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Name Formatter Main.vi" Type="VI" URL="../Name Formatter Main.vi"/>
 </Library>
