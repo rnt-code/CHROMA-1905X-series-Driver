@@ -1,0 +1,182 @@
+5.6 IEEE 488.2 Command
+* CLS command
+Clear status data configuration of the following actions is needed.
+Clear standard event status register.
+Clear status bit group register except for MAV bit (bit 4).
+* ESE <metric system value> Command
+Use setting standard event status enable register value, <metric system value> range is 0 ~255.
+* ESE? Command
+The controller is used for querying the standard event status of the device and enables register value.
+The output format is <metric system value>, and the range is 0~255.
+* ESR? Command
+The controller queries the standard event register value of the device. After performing this command, the standard event register value will be cleared to 0.
+The output format is <metric system value>, and the range is 0~255.
+* SRE <metric system value> Command
+Use for setting service request register value, the <metric system value> value is 0~255.
+* SRE? Command
+The controller is reading service requests to enable the register initial setting.
+The output format is <metric system value>, and the range is 0~255.
+* STB? Command
+The controller is for reading the status bit register value.
+The output format is <metric system value>, and the range is 0~255.
+* OPC Command
+Operation is completed command
+* OPC? Command
+Operation complete query command.
+The output format is ASCII character "1".
+* PSC 0|1 Command
+Power on status clear command.
+* PSC? Command
+Power on status clear query command.
+The output format is ASCII character "1" or "0".
+* RST Command
+The device reset command.
+* IDN? Command
+The controller is for reading the basic data of the device.
+The output format separates four fields by comma, which denote separately: manufacturer, device model, serial number, and firmware version.
+* SAV <metric system value> Command
+Save command.
+This command saves the current status to memory, its’ metric system value range is 1~ 99.
+* RCL <metric system value> Command
+Recall command.
+This command recalls the saved status, its’ metric system value range is 1~99.
+
+
+* CLS
+* ESE <metric system value>
+* ESE?
+* ESR?
+* SRE <metric system value>
+* SRE?
+* STB?
+* OPC
+* OPC?
+* PSC 0|1
+* PSC?
+* RST
+* IDN?
+* SAV <metric system value>
+* RCL <metric system value>
+
+:SYSTem
+        :ERRor
+               :[NEXT]?
+        :VERSion?
+        :KLOCk <boolean> |ON|OFF
+        :KLOCk?
+        :LOCK
+              :OWNer?
+              :REQuest?
+              :RELease
+
+----------------------------------------              
+        :ROUNDing <boolean>|ON|OFF
+        :ROUNDing?
+-----------------------------------------
+
+MEMory
+     :DELete
+             :LOCAtion <register number>
+     :FREE
+           :STEP?
+           :STATe?
+     :STATe
+           :DEFine <name>, <register number>
+           :DEFine? <name>
+           :LABEl? <register number>
+
+-----------------------------------------             
+     :NSTAtes?
+-----------------------------------------
+
+:SOURce
+        :SAFEty
+              :FETCh? [ <item> ] { , <item> }
+                     ITEM     RESPONDING DATA 
+                     :STEP
+                     :MODE
+                     :OMETerage
+                     :MMETerage
+                     :RMETerage
+                     :RELApsed
+                     :RELEFt
+                     :TELApsed
+                     :TLEFt0
+
+
+
+        :STARt
+              [:ONCE]
+               :OFFSet GET|OFF
+               :OFFSet?
+               :CSTandard
+        :STOP
+        :STATus?
+        :RESult
+                :ALL
+                   [:JUDGment]?
+                    :OMETerage?
+                    :MMETerage?
+                    :RMETerage?
+                    :TIME
+                        [:ELAPsed]
+                        [:TEST]?
+                         :RAMP?
+                         :FALL?
+                         :DWELl?
+                    :MODE?
+                :COMPleted?
+
+----RS232-------------------------------------                
+                :AREPort? (RS232 Interface only)
+               [:JUDGment]
+               [:MESsage]?
+                :AREPort (RS232 Interface only)
+                        [:JUDGment]
+                        [:MESsage] <Boolean> |ON|OFF
+                         :OMETerage <Boolean> |ON|OFF
+                         :OMETerage?
+                         :MMETerage <Boolean> |ON|OFF
+                         :MMETerage?
+                         :RMETerage
+                         :RMETerage?
+----RS232-------------------------------------
+
+               [:LAST]
+                    [:JUDGment]?
+                     :OMETerage?
+                     :MMETerage?
+                     :RMETerage?
+                :STEP<n>
+                     :JUDGment?
+                     :OMETerage?
+                     :MMETerage?
+                     :RMETerage?
+:SNUMber?
+:STEP<n>
+      :DELete
+      :SET?
+      :MODE?
+:AC
+[:LEVel] <numeric value>
+[:LEVel]?
+:LIMit
+[:HIGH] <numeric_value>
+[:HIGH]?
+:LOW <numeric_value>
+:LOW?
+:ARC
+[:LEVel] <numeric_value>
+[:LEVel]?
+:REAL
+[:HIGH]
+[:HIGH]?
+:TIME
+:RAMP <numeric_value>
+:RAMP?
+[:TEST] <numeric_value>
+[:TEST]?
+:FALL <numeric_value>
+:FALL?
+:CHANnel
+[:HIGH] <channel_list>
